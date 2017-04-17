@@ -17,7 +17,7 @@ Only single model is tested. The complete training code will be released later.
 
 ## Files
 - test.py : test file
-- ./Models/ : Models' directory
+- ./Models : Models' directory
 - train_X2.py : training file
 - ./train : training data generating files
 
@@ -31,11 +31,11 @@ Only single model is tested. The complete training code will be released later.
 # If low-resolution image augmentation is not used, just ignore the "--aug".
 # 
 # Example X2:
-python test.py --LR_path DIV2K_test_LR_bicubic/X2/ --save_path DIV2K_test_SR/SRX2/ --model_path Models/X2 --aug true
+python test.py --LR_path ./DIV2K_test_LR_bicubic/X2/ --save_path ./DIV2K_test_SR/SRX2/ --model_path ./Models/X2 --aug true
 # Example X3:
-python test.py --LR_path DIV2K_test_LR_bicubic/X3/ --save_path DIV2K_test_SR/SRX3/ --model_path Models/X3 --aug true
+python test.py --LR_path ./DIV2K_test_LR_bicubic/X3/ --save_path ./DIV2K_test_SR/SRX3/ --model_path ./Models/X3 --aug true
 # Example X4:
-python test.py --LR_path DIV2K_test_LR_bicubic/X4/ --save_path DIV2K_test_SR/SRX4/ --model_path Models/X4 --aug true
+python test.py --LR_path ./DIV2K_test_LR_bicubic/X4/ --save_path ./DIV2K_test_SR/SRX4/ --model_path ./Models/X4 --aug true
 ```
 # 
 
