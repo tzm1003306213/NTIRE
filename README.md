@@ -5,7 +5,7 @@ NTIRE 2017 Super-Resolution Challenge - Track 1: Bicubic downscaling - x4
 
 ## Overview
 The test image is augmented using left-right flip, up-down flip and left-right and up-down flip, and the results are average fused. 
-Only single model is tested. The complete training code will be released later.
+Due to the limitation of time and resources, only single model is tested. The complete training code will be released later.
 
 ## Requirements
 - tensorflow 1.0.1
