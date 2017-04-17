@@ -8,7 +8,7 @@ The test image is augmented using left-right flip, up-down flip and left-right a
 Only single model is tested.   
 The complete training code will be released later.
 
-## Requirments
+## Requirements
 - tensorflow 1.0.1
 - tensorlayer 1.3.11
 - opencv 2.4
