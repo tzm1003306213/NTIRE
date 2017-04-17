@@ -16,7 +16,7 @@ tensorlayer 1.3.11
 
 ### Testing
 ```shell
-# --LR_path path to the low-resolution images; --save_path path to save the super-resolved images; --model_path path to model; --aug low-resolution image augmentation.
+# --LR_path, path to the low-resolution images; --save_path, path to save the super-resolved images; --model_path, path to model; --aug, low-resolution image augmentation.
 # If low-resolution image augmentation is not used, just ignore the "--aug".
 # example:
 python test.py --LR_path DIV2K_test_LR_bicubic/X2/ --save_path DIV2K_test_SR/SRX2/ --model_path Models/X2 --aug true
