@@ -17,9 +17,9 @@ Only single model is tested. The complete training code will be released later.
 
 ## Files
 - test.py : test file
-- Models/ : Models' directory
+- ./Models/ : Models' directory
 - train_X2.py : training file
-- train/ : training data generating files
+- ./train : training data generating files
 
 ## How To Use
 
