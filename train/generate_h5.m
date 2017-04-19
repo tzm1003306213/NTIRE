@@ -1,8 +1,8 @@
 clear
 
-folder = '/media/tang/RAID0/NTIRE/DIV2K_train_AUG/';
+folder = './DIV2K_train_AUG/';
 
-savepath = '/media/tang/RAID0/NTIRE/X2train.h5';
+savepath = 'X2train.h5';
 scale = 2;
 input_size = 160;
 stride = 80;

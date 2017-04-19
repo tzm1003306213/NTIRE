@@ -1,7 +1,7 @@
 clear; 
 %% To do data augmentation
-folder = '/home/tang/NTIRE/DIV2K_train_HR';
-savepath = '/media/tang/RAID0/NTIRE/DIV2K_train_AUG/';
+folder = './DIV2K_train_HR';
+savepath = './DIV2K_train_AUG/';
 
 filepaths = dir(fullfile(folder,'*.png'));
      
