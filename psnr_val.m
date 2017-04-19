@@ -1,8 +1,8 @@
 clear
 
 scale = 2;
-sr_path = '/home/tang/NTIRE/DIV2K_valid_LR_bicubic/SRX2';
-gt_path = '/home/tang/NTIRE/DIV2K_valid_HR';
+sr_path = './DIV2K_valid_LR_bicubic/SRX2';
+gt_path = './DIV2K_valid_HR';
 
 sr_filepaths = dir(fullfile(sr_path,'*.png'));
 gt_filepaths = dir(fullfile(gt_path,'*.png'));
