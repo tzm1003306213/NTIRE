@@ -20,6 +20,7 @@ Due to the limitation of time and resources, only single model is tested. The co
 - ./Models : Models' directory
 - train_X2.py : training file
 - ./train : training data generating files
+- ./DIV2K_test_LR_bicubic : Low-resolution images
 
 ## How To Use
 
