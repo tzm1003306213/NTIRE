@@ -36,7 +36,7 @@ def main():
 
     sess = tf.Session()
     new_saver = tf.train.import_meta_graph(graph)
-    new_saver = tf.train.Saver(tf.global_variables())
+#    new_saver = tf.train.Saver(tf.global_variables())
     new_saver.restore(sess, variables)
 
     ex_time = []
