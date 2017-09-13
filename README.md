@@ -10,7 +10,7 @@ Due to the limitation of time and resources, only single model is tested. The co
 ## Requirements
 - tensorflow 1.0.1
 - tensorlayer 1.3.11
-- opencv 2.4
+- opencv
 - h5py 2.6
 - CUDA 8.0 (optional)
 - cudnn 5.1 (optional)
